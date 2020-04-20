@@ -21,8 +21,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 
-" NERDTree Plugin
-Plugin 'preservim/nerdtree'
 " YouCompleteMe Plugin
 Plugin 'ycm-core/YouCompleteMe'
 
@@ -44,8 +42,3 @@ filetype plugin indent on    " required
 
 set completeopt-=preview
 
-let NERDTreeMinimalUI = 1
-let NERDTreeDirArrows = 1
-let NERDTreeAutoDeleteBuffer = 1
-nnoremap <Leader>f :NERDTreeToggle<Enter>
-nnoremap <silent> <Leader>v :NERDTreeFind<CR>
